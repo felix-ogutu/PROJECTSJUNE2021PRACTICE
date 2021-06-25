@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* css for the all body*/
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: blueviolet;
+}
+
+/*css for the main body*/
+.main-body {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+/* css for the input*/
+input {
+  padding: 5px 10px;
+  border: 1px solid#03a9f4;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: 1px solid #03a9f4;
+}
+ul {
+  list-style: none;
+}
+
+/* css for the list*/
+li {
+  background: linear-gradient(-45deg, #1fb3e0, #fff);
+  min-height: 40px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* css for the delete class*/
+.delete {
+  line-height: 0.7;
+  font-size: 25px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  background: #f21d41;
+}
